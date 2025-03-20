@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1742229371 source:c:\users\dmytr\desktop\lab08\prj\modulesdmytrenko\main.cpp
+	<iostream>
+	<cmath>
+	<cstdio>
+
