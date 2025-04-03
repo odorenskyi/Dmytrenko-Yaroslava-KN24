@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1743526306 source:c:\users\dmytr\desktop\9.1\testdriver\main.cpp
+	<iomanip>
+	<iostream>
+	"C:\Users\dmytr\Desktop\lab08\prj\ModulesDmytrenko\ModulesDmytrenko.h"
+	<locale>
+	<windows.h>
+
+1743526421 c:\users\dmytr\desktop\lab08\prj\modulesdmytrenko\modulesdmytrenko.h
+
+1743609041 source:c:\users\dmytr\desktop\lab09\testdriver\main.cpp
+	<iomanip>
+	<iostream>
+	"C:\Users\dmytr\Desktop\lab08\prj\ModulesDmytrenko\ModulesDmytrenko.h"
+	<locale>
+	<windows.h>
+
