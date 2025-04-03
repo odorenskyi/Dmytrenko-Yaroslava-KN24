@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1743621549 source:c:\users\dmytr\desktop\9.1\dmytrenko_task\main.cpp
+	<iomanip>
+	<iostream>
+	"C:\\Users\\dmytr\\Desktop\\lab08\\prj\\ModulesDmytrenko\\ModulesDmytrenko.h"
+	<locale>
+	<windows.h>
+
+1743526421 c:\users\dmytr\desktop\lab08\prj\modulesdmytrenko\modulesdmytrenko.h
+
+1743619173 c:\\users\\dmytr\\desktop\\lab08\\prj\\modulesdmytrenko\\modulesdmytrenko.h
+
+1743660941 source:c:\users\dmytr\desktop\lab09\dmytrenko_task\main.cpp
+	<iomanip>
+	<iostream>
+	"C:\\Users\\dmytr\\Desktop\\lab08\\prj\\ModulesDmytrenko\\ModulesDmytrenko.h"
+	<locale>
+	<windows.h>
+
+1743660434 source:c:\users\dmytr\desktop\lab09\prj\dmytrenko_task\main.cpp
+	<iomanip>
+	<iostream>
+	"C:\\Users\\dmytr\\Desktop\\lab08\\prj\\ModulesDmytrenko\\ModulesDmytrenko.h"
+	<locale>
+	<windows.h>
+
