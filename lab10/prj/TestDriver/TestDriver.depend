@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1744836032 source:c:\users\morle\onedrive\desktop\lab10\prj\testdriver\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<ctime>
+	<locale>
+	<windows.h>
+	<cmath>
+	"ModulesDmytrenko.h"
+
+1744842697 c:\users\morle\onedrive\desktop\lab08\prj\modulesdmytrenko\modulesdmytrenko.h
+
