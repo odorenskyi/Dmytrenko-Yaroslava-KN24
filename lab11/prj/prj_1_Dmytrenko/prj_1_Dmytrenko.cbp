@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="prj_1_Dmytrenko" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc-mingw64" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/prj_1_Dmytrenko" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc-mingw64" />
+				<Compiler>
+					<Add directory="../ModulesDmytrenko" />
+					<Add directory="../ModulesBezkrovna" />
+					<Add directory="../ModulesSereda" />
+				</Compiler>
+				<Linker>
+					<Add library="../ModulesDmytrenko/bin/Debug/libModulesDmytrenko.a" />
+					<Add library="../ModulesBezkrovna/bin/Debug/libModulesBezkrovna.a" />
+					<Add library="../ModulesSereda/bin/Debug/libModulesSereda.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/prj_1_Dmytrenko" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc-mingw64" />
+			</Target>
+		</Build>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
