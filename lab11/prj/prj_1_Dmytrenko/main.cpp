@@ -18,7 +18,7 @@ int main() {
 
 
     std::string filename;
-    std::cout << "Ââåä³òü ³ì'ÿ ôàéëó äëÿ ç÷èòóâàííÿ: ";
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Â³Ã¬'Ã¿ Ã´Ã Ã©Ã«Ã³ Ã¤Ã«Ã¿ Ã§Ã·Ã¨Ã²Ã³Ã¢Ã Ã­Ã­Ã¿: ";
     std::cin >> filename;
     List *list = load_register(filename);
 
@@ -32,26 +32,16 @@ int main() {
 
     int choice;
     do {
-        std::cout << "\nÌåíş:\n";
-        std::cout << "1. Äîäàòè íîâèé çàïèñ\n";
-        std::cout << "2. Âèâåñòè âñ³ çàïèñè\n";
-        std::cout << "3. Çáåğåãòè ó òåêñòîâèé ôàéë\n";
-        std::cout << "4. Ïîøóê çàïèñó ó ğåºñòğ³ çà äåğæàâíèì íîìåğîì\n";
-        std::cout << "5. Âèäàëåííÿ çàïèñó ç ğåºñòğà çà äåğæàâíèì íîìåğîì\n";
-        std::cout << "6. Âèõ³ä\n";
-        std::cout << "Âàø âèá³ğ: ";
+        std::cout << "\nÃŒÃ¥Ã­Ã¾:\n";
+        std::cout << "1. Ã„Ã®Ã¤Ã Ã²Ã¨ Ã­Ã®Ã¢Ã¨Ã© Ã§Ã Ã¯Ã¨Ã±\n";
+        std::cout << "2. Ã‚Ã¨Ã¢Ã¥Ã±Ã²Ã¨ Ã¢Ã±Â³ Ã§Ã Ã¯Ã¨Ã±Ã¨\n";
+        std::cout << "3. Ã‡Ã¡Ã¥Ã°Ã¥Ã£Ã²Ã¨ Ã³ Ã²Ã¥ÃªÃ±Ã²Ã®Ã¢Ã¨Ã© Ã´Ã Ã©Ã«\n";
+        std::cout << "4. ÃÃ®Ã¸Ã³Ãª Ã§Ã Ã¯Ã¨Ã±Ã³ Ã³ Ã°Ã¥ÂºÃ±Ã²Ã°Â³ Ã§Ã  Ã¤Ã¥Ã°Ã¦Ã Ã¢Ã­Ã¨Ã¬ Ã­Ã®Ã¬Ã¥Ã°Ã®Ã¬\n";
+        std::cout << "5. Ã‚Ã¨Ã¤Ã Ã«Ã¥Ã­Ã­Ã¿ Ã§Ã Ã¯Ã¨Ã±Ã³ Ã§ Ã°Ã¥ÂºÃ±Ã²Ã°Ã  Ã§Ã  Ã¤Ã¥Ã°Ã¦Ã Ã¢Ã­Ã¨Ã¬ Ã­Ã®Ã¬Ã¥Ã°Ã®Ã¬\n";
+        std::cout << "6. Ã‚Ã¨ÃµÂ³Ã¤\n";
+        std::cout << "Ã‚Ã Ã¸ Ã¢Ã¨Ã¡Â³Ã°: ";
         std::cin >> choice;
         std::cin.ignore();
-
-        List *list = load_register(filename);
-
-        if (list == nullptr)
-        {
-        list = new List;
-        list->head = nullptr;
-        list->tail = nullptr;
-        }
-
 
         switch (choice) {
             case 1:
@@ -64,7 +54,7 @@ int main() {
 
             case 3: {
                 std::string filename;
-                std::cout << "Ââåä³òü ³ì'ÿ òåêñòîâîãî ôàéëó: ";
+                std::cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Â³Ã¬'Ã¿ Ã²Ã¥ÃªÃ±Ã²Ã®Ã¢Ã®Ã£Ã® Ã´Ã Ã©Ã«Ã³: ";
                 std::getline(std::cin, filename);
                 printRegistryToFile(list, filename);
                 break;
@@ -72,7 +62,7 @@ int main() {
 
             case 4: {
                 std::string state_number;
-                std::cout << "Ââåä³òü äåğæàâíèé íîìåğ: ";
+                std::cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¤Ã¥Ã°Ã¦Ã Ã¢Ã­Ã¨Ã© Ã­Ã®Ã¬Ã¥Ã°: ";
                 std::cin >> state_number;
                 search_by_state_number(filename, state_number);
                 break;
@@ -80,28 +70,28 @@ int main() {
 
             case 5: {
                 std::string stt_number;
-                std::cout << "Ââåä³òü äåğæàâíèé íîìåğ äëÿ âèäàëåííÿ: ";
+                std::cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¤Ã¥Ã°Ã¦Ã Ã¢Ã­Ã¨Ã© Ã­Ã®Ã¬Ã¥Ã° Ã¤Ã«Ã¿ Ã¢Ã¨Ã¤Ã Ã«Ã¥Ã­Ã­Ã¿: ";
                 std::cin >> stt_number;
                 if (removeByStateNumber(*list, stt_number)) {
-                    std::cout << "Çàïèñ âèäàëåíî.\n";
+                    std::cout << "Ã‡Ã Ã¯Ã¨Ã± Ã¢Ã¨Ã¤Ã Ã«Ã¥Ã­Ã®.\n";
                 } else {
-                    std::cout << "Çàïèñ íå çíàéäåíî.\n";
+                    std::cout << "Ã‡Ã Ã¯Ã¨Ã± Ã­Ã¥ Ã§Ã­Ã Ã©Ã¤Ã¥Ã­Ã®.\n";
                 }
                 break;
             }
 
             case 6: {
                 std::string filename;
-                std::cout << "Ââåä³òü ³ì'ÿ á³íàğíîãî ôàéëó äëÿ çáåğåæåííÿ: ";
+                std::cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Â³Ã¬'Ã¿ Ã¡Â³Ã­Ã Ã°Ã­Ã®Ã£Ã® Ã´Ã Ã©Ã«Ã³ Ã¤Ã«Ã¿ Ã§Ã¡Ã¥Ã°Ã¥Ã¦Ã¥Ã­Ã­Ã¿: ";
                 std::getline(std::cin, filename);
                 save_to_file(list, filename);
                 deleteRegistry(list);
-                std::cout << "Çàâåğøåííÿ ğîáîòè.\n";
+                std::cout << "Ã‡Ã Ã¢Ã¥Ã°Ã¸Ã¥Ã­Ã­Ã¿ Ã°Ã®Ã¡Ã®Ã²Ã¨.\n";
                 break;
             }
 
             default:
-                std::cout << "Íåâ³ğíèé âèá³ğ!\n";
+                std::cout << "ÃÃ¥Ã¢Â³Ã°Ã­Ã¨Ã© Ã¢Ã¨Ã¡Â³Ã°!\n";
         }
 
     } while (choice != 6);
