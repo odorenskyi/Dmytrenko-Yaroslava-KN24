@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1743683257 source:c:\users\dmytr\desktop\lab08\prj\modulesdmytrenko\main.cpp
+	<iostream>
+	<cmath>
+	<cstdio>
+
+1744370502 source:c:\users\morle\onedrive\desktop\lab08\prj\modulesdmytrenko\main.cpp
+	<iostream>
+	<cmath>
+	<cstdio>
+
+1744843650 source:c:\users\morle\onedrive\desktop\lab08\prj\modulesdmytrenko\modulesdmytrenko.cpp
+	<iostream>
+	<cmath>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+	<cctype>
+	<vector>
+	<ctime>
+
+1748360160 source:c:\users\dmytr\desktop\dmytrenko-yaroslava-kn24\lab08\prj\modulesdmytrenko\modulesdmytrenko.cpp
+	<iostream>
+	<cmath>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+	<cctype>
+	<vector>
+	<ctime>
+
