@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1748539777 source:c:\users\dmytr\desktop\dmytrenko-yaroslava-kn24\lab12\prj\teacher\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cmath>
+	<stdexcept>
+	<iomanip>
+	"ModulesDmytrenko.h"
+
+1748360206 c:\users\dmytr\desktop\dmytrenko-yaroslava-kn24\lab08\prj\modulesdmytrenko\modulesdmytrenko.h
+	<vector>
+	<iostream>
+	<string>
+	<cmath>
+	<stdexcept>
+

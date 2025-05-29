@@ -1,0 +1,30 @@
+Test Case ID: 1
+Action: SET height=1.2000 radius=0.3000 color=purple
+Expected Result: 0.3393
+Test Case ID: 2
+Action: SET height=2.0000 radius=7.0000 color=euler-green
+Expected Result: 307.8768
+Test Case ID: 3
+Action: SET height=3.0000 radius=0.1000 color=square-blue
+Expected Result: 0.0942
+Test Case ID: 4
+Action: SET height=0.5000 radius=0.5000 color=red
+Expected Result: 0.3927
+Test Case ID: 5
+Action: SET height=1.0000 radius=1.0000 color=blue
+Expected Result: 3.1416
+Test Case ID: 6
+Action: SET height=0.7500 radius=0.2500 color=зелен
+Expected Result: 0.1473
+Test Case ID: 7
+Action: SET height=5.0000 radius=2.0000 color=black
+Expected Result: 62.8320
+Test Case ID: 8
+Action: SET height=3.0000 radius=23.0000 color=gold
+Expected Result: 4985.7192
+Test Case ID: 9
+Action: SET height=10.0000 radius=0.5000 color=grey
+Expected Result: 7.8540
+Test Case ID: 10
+Action: SET height=3.1416 radius=1.0000 color=pi-colored
+Expected Result: 9.8696
