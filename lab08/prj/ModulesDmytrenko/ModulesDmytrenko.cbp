@@ -34,6 +34,12 @@
 				</Linker>
 			</Target>
 		</Build>
+		<Compiler>
+			<Add directory="../ModulesDmytrenko" />
+		</Compiler>
+		<Linker>
+			<Add library="bin/Debug/libModulesDmytrenko.a" />
+		</Linker>
 		<Unit filename="ModulesDmytrenko.cpp">
 			<Option compilerVar="CC" />
 		</Unit>

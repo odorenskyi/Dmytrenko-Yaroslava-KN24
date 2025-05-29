@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <cctype>
 #include <vector>
-#include <ctime> // потрібна для роботи з time, ctime, localtime, asctime
+#include <ctime>
 
 
 double s_calculation(double x, double y, double z)
@@ -79,14 +79,12 @@ void writeAuthorInfo(const std::string& filename)
     }
 }
 
-// Перевірка символу на кирилицю
 bool isCyrillic(char c)
 {
     unsigned char uc = static_cast<unsigned char>(c);
-    return (uc >= 0xD0 && uc <= 0xD3); // Часткове покриття UTF-8 кирилиці
+    return (uc >= 0xD0 && uc <= 0xD3);
 }
 
-// Визначення мови
 std::string detectLanguage(const std::string& text)
 {
     int cyrillicCount = 0, latinCount = 0;
@@ -104,7 +102,6 @@ std::string detectLanguage(const std::string& text)
         return "Невідома мова";
 }
 
-// Перетворення тексту на великі літери
 std::string toUpperCase(const std::string& str)
 {
     std::string result = str;
@@ -113,7 +110,6 @@ std::string toUpperCase(const std::string& str)
     return result;
 }
 
-// Видалення заборонених слів з українського тексту
 std::string removeForbiddenWords(const std::string& text, const std::vector<std::string>& forbidden)
 {
     std::istringstream iss(text);
